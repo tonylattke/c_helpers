@@ -10,3 +10,4 @@ Run file and interact:
 | --------------------- |------------------------------------------------------------- |
 | 0_hello_world.c 		| - Hello world to C |
 | 1_variables.c 		| - Using variables. Compile with -lm |
+| 2_data_structures.c	| - Using basic data structures (pointers, array unit) |
