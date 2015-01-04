@@ -12,3 +12,4 @@ Run file and interact:
 | 1_variables.c 		| - Using variables. Compile with -lm |
 | 2_data_structures.c	| - Using basic data structures (pointers, array unit) |
 | 3_conditionals.c		| - Using if |
+| 4_loops.pl			| - Using loops (While, do and For) |
