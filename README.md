@@ -14,3 +14,4 @@ Run file and interact:
 | 3_conditionals.c		| - Using if |
 | 4_loops.pl			| - Using loops (While, do and For) |
 | 5_functions_methods.c | - Using functions and methods |
+| 6_records.c 			| - Create structures |
