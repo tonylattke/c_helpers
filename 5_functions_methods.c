@@ -35,13 +35,14 @@ int fibonacci(value){
 /************************************** Function Main **********************************/
 
 void main() {
+
 	// Testing Function even
-	int i;
-	for (i = 0; i < 10; ++i) {
-		if (even(i) != 0) {
-			printf("%d - Even\n",i);
+	int j;
+	for (j = 0; j < 10; ++j) {
+		if (even(j) != 0) {
+			printf("%d - Even\n",j);
 		} else {
-			printf("%d - Odd\n",i);
+			printf("%d - Odd\n",j);
 		}
 	}
 
@@ -49,4 +50,5 @@ void main() {
 	int number = 7;
 	printf("Factorial of %d is %d\n", number,factorial(number));
 	printf("Fibonacci of %d is %d\n", number,fibonacci(number));
+
 }
