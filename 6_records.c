@@ -17,6 +17,15 @@ struct Person {
 	unsigned int age;
 };
 
+// Structure Person
+typedef struct Person Person;
+
+// Inheritance simulated
+struct Civil {
+	Person person_data;
+	char* profesion_name;
+};
+
 void main() {
 	
 	// Create record without value
@@ -36,5 +45,8 @@ void main() {
 	// Using pointers and struct
 	struct Person* aux4 = &aux3;
 	aux4->age = 30;
-	
+
+	// Inheritance initialize
+	struct Civil aux5 = { { "Tony", 24 }, "Programmer" };
+
 }
