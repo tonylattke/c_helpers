@@ -17,3 +17,4 @@ Run file and interact:
 | 6_records.c 			| - Create structures and Inheritance |
 | 7_libraries.c 		| - Using libraries (time, math and random) |
 | 8_io.c 				| - Read standard input and manipulate files |
+| 9_value_transform.c	| - Value to string and string to value functions |
