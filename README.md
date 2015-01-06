@@ -16,3 +16,4 @@ Run file and interact:
 | 5_functions_methods.c | - Using functions and methods |
 | 6_records.c 			| - Create structures and Inheritance |
 | 7_libraries.c 		| - Using libraries (time, math and random) |
+| 8_io.c 				| - Read standard input and manipulate files |
