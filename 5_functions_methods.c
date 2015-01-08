@@ -32,6 +32,12 @@ int fibonacci(value){
 	return fibonacci(value-1)+fibonacci(value-2);
 }
 
+/******************************* Example 3 - Inline Function ***************************/
+
+inline void hello(){
+	printf("Hello\n");
+}
+
 /************************************** Function Main **********************************/
 
 void main() {
@@ -51,4 +57,6 @@ void main() {
 	printf("Factorial of %d is %d\n", number,factorial(number));
 	printf("Fibonacci of %d is %d\n", number,fibonacci(number));
 
+	// Testing hello
+	hello();
 }
