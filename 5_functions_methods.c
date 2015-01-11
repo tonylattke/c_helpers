@@ -23,7 +23,7 @@ int factorial(int value){
 // Fibonacci
 // @value : Number
 // @return : Fibonacci value
-int fibonacci(value){
+int fibonacci(int value){
 	if (value == 0) {
 		return 0;
 	} else if (value == 1) {
