@@ -38,4 +38,18 @@ void main() {
 		printf("It\'s not Tony or Enrique\n");
 	}
 
+	// switch .. case ..	
+	int value = 23;
+	switch ( value ) {
+		case 32:
+			printf("32\n");
+			break;
+		case 43:
+			printf("42\n");
+			break;
+		default:
+			printf("Other\n");
+			break;
+	}
+
 }
